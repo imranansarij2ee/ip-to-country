@@ -24,7 +24,7 @@ const cache = {};
 // Rate Limit Reset Interval
 setInterval(() => {
     vendors.ipstack.requestCount = 0;
-    vendors.ipinfo.requestCount = 0;
+    vendors.ipapi.requestCount = 0;
 }, 3600000); // Reset every hour
 // 3600000 milliseconds = 1 hour
 // 60000 milliseconds = 1 minute
